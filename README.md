@@ -23,9 +23,7 @@ Run from the terminal:
 
 + Open your terminal or command prompt, navigate to the directory where you saved the script, and run it using the python3 command:
 
-
-python3 port_scanner.py
-
+> python3 port_scanner.py
 
 Enter Target and Port Range:
 
@@ -39,12 +37,11 @@ Enter Target and Port Range:
 
 Example Input:
 
-Target IP address: 192.168.1.1
+> Target IP address: 192.168.1.1
 
-Start port (default: 1): 20
+> Start port (default: 1): 20
 
-End port (default: 65535): 100
-
+> End port (default: 65535): 100
 
 *** Output ***
 
@@ -52,27 +49,22 @@ During the scan, you will see real-time updates:
 
 Open Ports: Ports found to be open will be displayed in green on a new line, like this:
 
+> Port 22 is OPEN!
 
-Port 22 is OPEN!
-
-Port 80 is OPEN!
-
+> Port 80 is OPEN!
 
 Closed Ports: Ports found to be closed will be displayed in red, typically overwriting the same line to show progress without cluttering the screen:
 
-
-Port 23: closed
-
+> Port 23: closed
 
 (This line will rapidly change as the scanner moves through closed ports.)
 
 Scan Summary: After the scan completes (or is interrupted), a summary will be displayed, including the total time taken and a sorted list of all identified open ports.
 
 
-Scan completed in 15.34 seconds!
+> Scan completed in 15.34 seconds!
 
-Open ports: [22, 80, 443]
-=
+> Open ports: [22, 80, 443]
 
 *** Error Handling ***
 
